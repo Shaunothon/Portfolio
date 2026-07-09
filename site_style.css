@@ -5,7 +5,10 @@ body.home {
   background-position: center center;
   background-repeat: repeat;
   background-attachment: fixed;
-  font-family: Open Sans, Roboto, Helvetica;
+  font-family:
+    Open Sans,
+    Roboto,
+    Helvetica;
   margin-inline: auto;
 }
 body.projects {
@@ -14,7 +17,10 @@ body.projects {
   background-position: center center;
   background-repeat: repeat;
   background-attachment: fixed;
-  font-family: Open Sans, Roboto, Helvetica;
+  font-family:
+    Open Sans,
+    Roboto,
+    Helvetica;
   margin-inline: auto;
 }
 
@@ -24,7 +30,10 @@ body.contact {
   background-position: center center;
   background-repeat: repeat;
   background-attachment: fixed;
-  font-family: Open Sans, Roboto, Helvetica;
+  font-family:
+    Open Sans,
+    Roboto,
+    Helvetica;
   color: white;
   margin-inline: auto;
 }
@@ -129,6 +138,25 @@ body.contact {
 }
 
 /*  PROJECTS PAGE */
+
+/* CC Rewards Database Expansion */
+.cc-sect {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  padding-left: 50px;
+}
+
+#cc-title {
+  font-size: 30px;
+  background-color: whitesmoke;
+}
+
+.cc-desc,
+.skills {
+  font-size: 18px;
+}
+/*--------------------------------*/
 
 /* UGL */
 .ugl-sect {
@@ -361,7 +389,8 @@ body.contact {
   .conv-sect,
   .int-sect,
   .aok-sect,
-  .ugl-sect {
+  .ugl-sect,
+  .cc-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -370,7 +399,8 @@ body.contact {
   .conv-sect img,
   .int-sect img,
   .aok-sect img,
-  .ugl-sect img {
+  .ugl-sect img,
+  .cc-sect img {
     max-width: 100%;
     height: auto;
   }
@@ -379,7 +409,8 @@ body.contact {
   .conv-desc,
   .int-desc,
   .aok-desc,
-  .ugl-desc {
+  .ugl-desc,
+  .cc-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -501,7 +532,8 @@ body.contact {
   .conv-sect,
   .int-sect,
   .aok-sect,
-  .ugl-sect {
+  .ugl-sect,
+  .cc-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -510,7 +542,8 @@ body.contact {
   .conv-sect img,
   .int-sect img,
   .aok-sect img,
-  .ugl-sect img {
+  .ugl-sect img,
+  .cc-sect img {
     max-width: 100%;
     height: auto;
   }
@@ -519,7 +552,8 @@ body.contact {
   .conv-desc,
   .int-desc,
   .aok-desc,
-  .ugl-desc {
+  .ugl-desc,
+  .cc-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -633,7 +667,8 @@ body.contact {
   .conv-sect,
   .int-sect,
   .aok-sect,
-  .ugl-sect {
+  .ugl-sect,
+  .cc-sect {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -642,7 +677,8 @@ body.contact {
   .conv-sect img,
   .int-sect img,
   .aok-sect img,
-  .ugl-sect img {
+  .ugl-sect img,
+  .cc-sect img {
     max-width: 100%;
     height: auto;
   }
@@ -651,7 +687,8 @@ body.contact {
   .conv-desc,
   .int-desc,
   .aok-desc,
-  .ugl-desc {
+  .ugl-desc,
+  .cc-desc {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
@@ -795,6 +832,24 @@ body.contact {
   }
 
   /*  PROJECTS PAGE */
+
+  /* CC Rewards Database Expansion */
+  .cc-sect {
+    text-align: center;
+    position: relative;
+    bottom: 50;
+    padding-left: 50px;
+  }
+
+  #cc-title {
+    font-size: 30px;
+    background-color: whitesmoke;
+  }
+
+  .cc-desc,
+  .skills {
+    font-size: 18px;
+  }
 
   /* UGL */
   .ugl-sect {
